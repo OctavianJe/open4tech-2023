@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment"
+        android:name="com.ace.mobilecomputing.presentation.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_locationFragment"
+            app:destination="@id/newsFragment">
+            <argument
+                android:name="id_news"
+                app:argType="integer" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.ace.mobilecomputing.presentation.fragments.NewsFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_news" >
+        <argument
+            android:name="id_news"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_locationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+</navigation>

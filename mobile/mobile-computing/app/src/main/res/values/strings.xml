@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Open4Tech</string>
+    <string name="pictures" translatable="false">Pictures</string>
+    <string name="location" translatable="false">Location</string>
+    <string name="home_title" translatable="false">Home</string>
+    <string name="news_title" translatable="false">News</string>
+    <string name="fetch_data_button" translatable="false">Fetch Data</string>
+    <string name="generic_cancel" translatable="false">Cancel</string>
+    <string name="generic_back" translatable="false">Back</string>
+    <string name="permission_denied" translatable="false">Permission Denied</string>
+    <string name="permission_denied_message" translatable="false">You must accept the permissions.</string>
+</resources>

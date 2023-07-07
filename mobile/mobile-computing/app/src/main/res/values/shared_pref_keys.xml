@@ -1,0 +1,3 @@
+<resources>
+    <string name="shared_pref_auth_token_key" translatable="false">SHARED_PREF_TOKEN_KEY</string>
+</resources>

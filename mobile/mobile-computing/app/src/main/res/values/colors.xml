@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#00BCD4</color>
+    <color name="secondary">#b30006</color>
+    <color name="secondary_dark">#7c0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="primary_text">@color/white</color>
+    <color name="secondary_text">@color/white</color>
+
+    <color name="successful">#4CAF50</color>
+    <color name="warn">#F9A825</color>
+    <color name="error">#C62828</color>
+
+    <color name="transparent">#00000000</color>
+</resources>
